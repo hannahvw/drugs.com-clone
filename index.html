@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pill Identifier</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Pill Identifier</h1>
+        <p class="sub-heading">Search by imprint, shape or color</p>
+        <p>
+          Use the pill finder to identify medications by visual appearance or
+          medicine name.
+        </p>
+        <form class="container">
+          <div class="col-1">
+            <label for="imprint">Pill Imprint</label>
+            <input
+              type="text"
+              id="imprint"
+              name="color"
+              placeholder="Imprint on pill"
+            />
+            <p class="gray tip">
+              <span class="bold">Tip:</span> Enter the
+              <span class="bold">imprint only first.</span> Refine by color or
+              shape if too many results display.
+            </p>
+            <label for="color"
+              >Color <span class="gray">(optional)</span></label
+            >
+            <select name="color" id="color">
+              <option value="any-color">Any Color</option>
+              <option value="white">White</option>
+              <option value="beige">Beige</option>
+              <option value="black">Black</option>
+              <option value="blue">Blue</option>
+              <option value="brown">Brown</option>
+              <option value="green">Green</option>
+              <option value="orange">Orange</option>
+              <option value="pink">Pink</option>
+              <option value="red">Red</option>
+              <option value="yellow">Yellow</option>
+              <option value="black-teal">Black & Teal</option>
+              <option value="black-yellow">Black & Yellow</option>
+              <option value="blue-white">Blue & White</option>
+              <option value="orange-yellow">Orange & Yellow</option>
+            </select>
+            <label for="shape"
+              >Shape <span class="gray">(optional)</span></label
+            >
+            <select name="shape" id="shape">
+              <option value="round">Round</option>
+              <option value="oval">Oval</option>
+              <option value="capsule-oblong">Capsule/Oblong</option>
+              <option value="barrel">Barrel</option>
+              <option value="3-sided">3 Sided</option>
+              <option value="egg">Egg</option>
+              <option value="any-chape">Any Shape</option>
+            </select>
+            <button type="button">Search</button>
+          </div>
+          <div class="col-2">
+            <img
+              src="https://www.drugs.com/img/pillid/pill-identifier-example.png"
+              alt="beige pill"
+            />
+          </div>
+        </form>
+      </section>
+      <section>
+        <h2>How to identify a pill using the Pill Identifier</h2>
+        <ol>
+          <li>
+            Enter the imprint code that appears on the pill. Example:
+            <span class="bold">L484</span>
+          </li>
+          <li>Select the pill color (optional).</li>
+          <li>Select the shape (optional).</li>
+          <li>
+            Alternatively, search by <span class="bold">drug name</span> or
+            <span class="bold">NDC code</span> using the fields below.
+          </li>
+        </ol>
+        <p class="sub-heading">Search by drug name</p>
+        <input type="text" placeholder="Enter a drug name, e.g aspirin" />
+        <p class="sub-heading">Search by NDC Code</p>
+        <input type="text" placeholder="Enter an NDC code, e.g 0777-3105-02" />
+        <a href="#">What is an NDC Number?</a>
+      </section>
+      <section>
+        <h2>Popular pill imprints</h2>
+      </section>
+      <section>
+        <p class="sub-heading">Learn more</p>
+        <ul>
+          <li>
+            <span class="bold">What if my pill has no imprint code?</span> All
+            prescription and over-the-counter (OTC) drugs in the U.S. are
+            required by the FDA to have an imprint code. If your pill has no
+            imprint it could be a vitamin, diet, herbal, or energy pill, or an
+            illicit or foreign drug. It is not possible to accurately identify a
+            pill online without an imprint code.
+          </li>
+          <li>
+            <span class="bold">What if my pill has a logo?</span> If your pill
+            has a logo, you can ignore the logo and type in any other letters or
+            numbers in the imprint code. If you want to refine your results
+            further, you can add the word Logo in place of the logo.
+          </li>
+          <li>
+            <span class="bold">Historical pill images.</span> The Drugs.com Pill
+            Identifier database includes historical data for many products that
+            may be discontinued or no longer commercially available.
+          </li>
+          <li><a href="#">Imprint code FAQs</a></li>
+          <li><a href="#">Identifying manufacturer imprints & logos</a></li>
+          <li><a href="#">Drugs.com discount card</a></li>
+        </ul>
+      </section>
+      <section>
+        <p class="sub-heading">Further information</p>
+        <p>
+          Always consult your healthcare provider to ensure the information
+          displayed on this page applies to your personal circumstances.
+        </p>
+        <a href="#">Medical Disclaimer</a>
+      </section>
+    </main>
+  </body>
+</html>
